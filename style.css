@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html {
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.styleTable  {
+	border-radius: 50px;
+	border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+	width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	color: black
+}
+
+.styleTable thead tr {
+    color: #ffffff;
+    text-align: center;
+}
+.styleTable th,
+.styleTable td {
+    padding: 12px 15px;
+	text-align: center
+}
+
+
+.styleTable tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styleTable tr:first-child {
+	background-color: #1d1d2a;
+	color: #ffffff;
+
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 315px;
+    margin: 25px;
+    padding: 20px;
+    background-color: #1d1d2a;
+    border-radius: 10px;
+}
+.card-main {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+.card-main {
+    font-weight: 800;
+    font-size: 25px;
+    color: #f3f3f3;
+}
+
+.card-main-second {
+    font-weight: 300;
+    font-size: 20px;
+    color: #f3f3f3;
+    margin-top: -30px;
+
+}
+
+h1 {
+	text-align: center
+}
+
+
+.resetB {
+    background-color: #1d1d2a;
+    border: none;
+    color: #f3f3f3;
+    padding: 10px 44px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 25px 20px 5px 0px;  
+}
+
+.parentresetB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.resetB:hover{
+  background-color: rgb(70,70,70);
+}
+
+#card2 {
+    display: none;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100px;
+    margin: 25px;
+    padding: 20px;
+    background-color: #1d1d2a;
+    border-radius: 10px;
+}
+.card2-main2 {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.card2-content2 {
+    display: flex;
+    flex-direction: column;
+}
+.card2-main2 {
+    font-weight: 800;
+    font-size: 25px;
+    color: #f3f3f3;
+}
+
+.card2-main2-second2 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #f3f3f3;
+    margin-top: -30px;
+}
